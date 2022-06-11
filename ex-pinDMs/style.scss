@@ -1,0 +1,364 @@
+.pd-friend {
+  margin: 6px;
+  width: 32px;
+  height: 32px;
+  float: left;
+  border-radius: 360px;
+}
+
+.channel-1Shao0 > .interactive-1vLZ_I {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.channel-1Shao0 > .interactive-1vLZ_I:hover {
+  .pd-pin {
+    display: block;
+    opacity: 0.8;
+  }
+}
+
+.pd-friend-name {
+  color: white;
+  float: left;
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.pd-friend-discrim {
+  color: hsla(0, 0%, 100%, 0.6);
+  float: left;
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: 4px;
+  padding-right: 6px;
+  &.pd-friend-discrim::before {
+    content: "#";
+  }
+}
+
+.pd-friend-name,
+.pd-friend-discrim {
+  margin-top: 8px;
+}
+
+.pd-star {
+  display: inline;
+  position: relative;
+  top: 0px;
+  padding-left: 1em;
+  background: url("https://canary.discordapp.com/assets/e4d52f4d69d7bba67e5fd70ffe26b70d.svg")
+    50% no-repeat;
+  background-size: 10px 10px;
+
+  &-member {
+    margin-left: 4px;
+  }
+}
+
+.pd-badge,
+.pd-badge.topSectionNormal-2-vo2m {
+  background: none;
+  display: inline-flex;
+}
+
+.pd-badge ~ .botTagRegular-2HEhHi {
+  margin-left: 8px;
+}
+
+.privateChannels-oVe7HL .pd-badge,
+.badges > .pd-badge {
+  height: 20px !important;
+  width: auto !important;
+}
+
+.pd-pin {
+  width: 15px;
+  min-width: 15px;
+  min-height: 15px;
+  height: 15px;
+  display: none;
+  opacity: 0.4;
+}
+
+.pd-fav-category-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.dm-category-expanded-icon {
+  margin-left: auto;
+  cursor: pointer;
+  align-items: center;
+
+  &.collapsed {
+    transform: rotate(90deg);
+  }
+}
+
+.pd-user-settings {
+  width: auto !important;
+  margin-bottom: 32px;
+}
+
+.pd-friend-item {
+  padding: 6px;
+  padding-left: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: auto;
+}
+
+.pd-notification-sounds {
+  width: auto !important;
+  padding-bottom: 64px;
+
+  .pd-text-input {
+    min-width: 200px;
+  }
+}
+
+.pd-notif-sound-settings-description {
+  margin-bottom: 20px;
+}
+
+.pd-dm-category-count {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0px 1px 2px rgb(0 0 0 / 5%);
+}
+
+.pd-notification-sounds > div > div > div > .divider-3573oO.marginTop20-3TxNs6 {
+  display: none;
+}
+
+.searchBar-2_Yu-C {
+  width: 100%;
+}
+
+html body .pd-ff-header {
+  // html body is used to get a more precise selector
+  display: flex !important;
+  align-items: center;
+
+  svg {
+    margin-right: 5px;
+    transition: 0.2s;
+    width: 18px;
+    height: 18px;
+    transform-origin: 50% 50%;
+  }
+
+  &.opened svg {
+    transform: rotate(90deg);
+  }
+}
+
+.pd-status-userinline {
+  flex-direction: row;
+  display: flex;
+}
+
+.pd-status-popup {
+  height: fit-content;
+  width: fit-content;
+  background-color: #212121;
+
+  .header {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    > span {
+      display: none;
+    }
+  }
+
+  .contents {
+    padding: 0;
+
+    .inner {
+      background-color: transparent;
+      border: none;
+      padding-bottom: 0;
+      margin-bottom: 2px;
+    }
+  }
+
+  &-text {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 8px;
+  }
+}
+
+.pd-setting-category {
+  display: flex;
+  .vertical-V37hAW {
+    width: 85%;
+    .divider-3573oO {
+      display: none;
+    }
+  }
+
+  button {
+    margin-left: 15px;
+    min-height: 38px;
+    height: 38px;
+  }
+}
+
+.pd-container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: var(--channels-default);
+}
+
+.pd-mutualGuilds {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  position: inherit;
+  .icon-3o6xvg {
+    border-radius: 12px;
+  }
+  > div {
+    margin-right: -5px;
+  }
+}
+
+.pd-header {
+  border-left: 2px solid var(--background-modifier-accent);
+  box-sizing: border-box;
+}
+
+.headerCellContent-1pLtOr {
+  margin: auto;
+}
+
+.pd-nameCell {
+  width: min-content;
+  padding: 0px 30px;
+}
+
+.pd-cellContent {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 975px) {
+  .pd-nameCell {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pd-nameCell {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .pd-nameCell {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .pd-nameCell {
+    padding: 0px 40px;
+  }
+}
+
+/**
+ * Settings
+ */
+.pd-settings {
+  &-title {
+    margin-bottom: 0;
+  }
+
+  &-tab-bar {
+    margin-bottom: 25px;
+
+    .selected-3s45Ha {
+      cursor: pointer !important;
+    }
+  }
+
+  &-tab-bar ~ .divider-3573oO {
+    margin-bottom: 20px;
+  }
+}
+
+.pd-settings-tab-bar ~ .divider-3573oO {
+  margin-bottom: 20px;
+}
+
+.pd-settings-card {
+  margin-bottom: 20px;
+  padding: 10px;
+
+  [data-list-id="color-picker"] {
+    margin-top: 10px;
+    animation: fade-in 1.5s;
+    justify-content: center;
+  }
+}
+
+.pd-text-input {
+  margin-bottom: 5px;
+  min-width: 50px;
+
+  &:not([class*="disabled"]) {
+    &:focus-within,
+    &:hover {
+      border-color: rgba(114, 137, 218, 0.3);
+    }
+  }
+}
+
+.pd-guildpin {
+  cursor: pointer;
+  .wrapper-1VLyxH { 
+    margin: 8px auto;
+    height: 48px !important;
+    width: 48px !important;
+  }
+}
+
+/** Animations **/
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
